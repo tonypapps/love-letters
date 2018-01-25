@@ -1,9 +1,9 @@
 html{
-  background-color: lightpink;
+  background-color: navy;
   font-family: helvetica;
 }
 header{
-  background-color: maroon;
+  background-color: steelblue;
   margin: -15px;
   margin-top: -175px;
   margin-right: -5%;
@@ -42,7 +42,7 @@ nav li {
     box-sizing: border-box;
     margin: 0 auto;
     background-color: black;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px grey;
     padding: 1em;
     padding-top: 15px;
     padding-bottom: 5px;
@@ -55,7 +55,7 @@ nav ul a {
 }
 a:hover{
   transition: 0.25s ease;
-  color: pink;
+  color: slateblue;
   font-size:1.2em;
 
 }
@@ -77,4 +77,7 @@ h2{
 }
 p{
   text-indent: 50px;
+}
+footer{
+  color: whitesmoke;
 }

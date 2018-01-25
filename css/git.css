@@ -60,8 +60,9 @@ a:hover{
 
 }
 main{
-  background-color: bisque;
-  border: 5px double burlywood;
+  background-image:url(img/letter-paper.jpg);
+  background-size: 100% 100%;
+  background-color: beige;
   margin: 2%;
   margin-top: 175px;
   margin-bottom: 350px;
