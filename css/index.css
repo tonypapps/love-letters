@@ -1,8 +1,9 @@
 html{
-  background-color: whitesmoke;
+  background-color: lightpink;
+  font-family: helvetica;
 }
 header{
-  background-color: grey;
+  background-color: maroon;
   margin: -15px;
   margin-top: -175px;
   margin-right: -5%;
@@ -13,6 +14,7 @@ header{
   text-align: center;
   color: white;
   position: fixed;
+  text-shadow: 2px 2px black;
 }
 nav {
   width: 100%;
@@ -46,20 +48,27 @@ nav li {
     padding-bottom: 5px;
 }
 nav ul a {
+    transition: 0.5s ease;
     text-align: center;
     color: white;
-}
-a {
     text-decoration: none;
-    color: lightblue;
+}
+a:hover{
+  transition: 0.25s ease;
+  color: pink;
+  font-size:1.2em;
+
 }
 main{
+  background-color: bisque;
+  border: 5px double burlywood;
   margin: 10%;
   margin-top: 175px;
   padding: 2.5%;
   padding-top:2.5px;
-  padding-bottom: 5px;
-  background-color: red;
+  padding-bottom: 10px;
+  font-family: 'Marck Script', cursive;
+  font-style: italic;
 }
 h2{
   text-align: center;
