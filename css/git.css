@@ -1,5 +1,5 @@
 html{
-  background-color: lightpink;
+  background-color: whitesmoke;
   font-family: helvetica;
 }
 header{
@@ -60,9 +60,8 @@ a:hover{
 
 }
 main{
-  background-image:url(img/letter-paper.jpg);
-  background-size: 100% 100%;
   background-color: beige;
+  background-image:url(../img/letter-paper.gif);
   margin: 2%;
   margin-top: 175px;
   margin-bottom: 350px;
@@ -71,10 +70,11 @@ main{
   padding-bottom: 10px;
   font-family: 'Shadows Into Light', cursive;
   font-style: italic;
+  color: black;
 }
-h2{
-  text-align: center;
-
+h3{
+  margin-top: 50px;
+  font-weight: bold;
 }
 p{
   text-indent: 50px;
