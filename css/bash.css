@@ -16,6 +16,20 @@ header{
   position: fixed;
   text-shadow: 2px 2px black;
 }
+header{
+  background-color: maroon;
+  margin: -15px;
+  margin-top: -175px;
+  margin-right: -5%;
+  padding: 1%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: fixed;
+  text-shadow: 2px 2px black;
+}
 nav {
   width: 100%;
   z-index: 99;
@@ -32,7 +46,7 @@ nav ul {
   position: absolute;
   width: 100%;
   margin: 0;
-  margin-left: -5%;
+  margin-left: 0%;
   padding: 0;
   list-style: none;
 }
@@ -41,7 +55,7 @@ nav li {
     box-sizing: border-box;
     margin: 0 auto;
     background-color: black;
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px white;
     padding: 1em;
     padding-top: 15px;
     padding-bottom: 5px;
