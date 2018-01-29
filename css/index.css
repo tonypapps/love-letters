@@ -3,7 +3,10 @@ html{
   font-family: helvetica;
 }
 header{
-  background-color: maroon;
+  background-color: pink;
+  background-image:url(../img/love-banner.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   margin: -15px;
   margin-top: -175px;
   margin-right: -5%;
