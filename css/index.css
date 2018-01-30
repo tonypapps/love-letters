@@ -1,14 +1,17 @@
 html{
   background-color: whitesmoke;
+  background-image:url(../img/heart-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   font-family: helvetica;
 }
 header{
   background-color: pink;
-  background-image:url(../img/love-banner.png);
+  /* background-image:url(../img/love-banner.png); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: -15px;
-  margin-top: -175px;
+  margin-top: -225px;
   margin-right: -5%;
   padding: 1%;
   padding-top: 10px;
@@ -62,10 +65,9 @@ a:hover{
 
 }
 main{
-  /* background-color: rgba(50,50,50,0.25);
-  border: 5px solid rgba(50,50,50,0.25); */
-  margin: 2%;
-  margin-top: 175px;
+  margin-left: 25%;
+  margin-right: 5%;
+  margin-top: 200px;
   margin-bottom: 45%;
   padding: 2.5%;
   padding-top:2.5px;
