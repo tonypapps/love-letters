@@ -16,6 +16,18 @@ header{
   position: fixed;
   text-shadow: 2px 2px black;
 }
+.broken-heart img{
+  height:100px;
+  position: relative;
+}
+#left-heart{
+  margin-top: -80px;
+  margin-left: -120px;
+}
+#right-heart{
+  margin-right: -120px;
+  margin-top: -120px;
+}
 nav {
   width: 100%;
   z-index: 99;
