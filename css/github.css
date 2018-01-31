@@ -1,5 +1,5 @@
 html{
-  background-color: lightpink;
+  background-color: crimson;
   font-family: helvetica;
 }
 header{
@@ -59,17 +59,42 @@ a:hover{
 
 }
 main{
-  background-color: bisque;
-  border: 5px double burlywood;
   margin: 2%;
   margin-top: 175px;
   margin-bottom: 350px;
   padding: 2.5%;
   padding-top:2.5px;
   padding-bottom: 10px;
-  font-family: 'Shadows Into Light', cursive;
-  font-style: italic;
+  font-family: 'Indie Flower';
+  color: whitesmoke;
 }
-p{
-  text-indent: 50px;
+/* spacing for each line */
+.opening{
+  color: whitesmoke;
+}
+.par1{
+  margin-left: 30px;
+}
+.par2{
+  margin-left: 60px;
+}
+.par3{
+  margin-left: 90px;
+}
+.par4{
+  margin-left: 120px;
+}
+.par5{
+  margin-left: 150px;
+}
+aside{
+  font-family: helvetica;
+}
+.a-t{
+  margin-right: 10px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.i{
+  font-style: italic;
 }
