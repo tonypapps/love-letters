@@ -75,16 +75,7 @@ main{
   padding-bottom: 10px;
   font-family: 'Eczar', serif;
   font-style: italic;
-}
-.key-word{
-  text-decoration: underline;
-  color: hotpink;
-  font-weight: bold;
-  transition: 0.5s ease;
-}
-.key-word:hover{
-  transition: 0.25s ease;
-  font-size:1.2em;
+  display: flex;
 }
 .letter{
   background-color: rgba(50,50,50,0.4);
@@ -92,6 +83,20 @@ main{
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.key-word{
+  text-decoration: underline;
+  color: crimson;
+  background-color: pink;
+  padding: 0.5%;
+  font-weight: bold;
+  transition: 0.5s ease;
+}
+.key-word:hover{
+  transition: 0.25s ease;
+  font-size:1.5em;
 }
 h3{
   margin-top: 50px;
@@ -102,7 +107,8 @@ p{
   text-indent: 50px;
 }
 aside{
-  background-color: rgba(50,50,50,0.4);
+  background-color: rgba(50,50,50,0.5);
+  border-radius: 25px;
   padding: 5%;
   font-style: normal;
 }
@@ -111,6 +117,7 @@ aside h2{
 }
 aside p{
   margin-top: -10px;
+  text-indent: inherit;
 }
 aside p span{
   text-decoration: underline;
