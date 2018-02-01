@@ -1,9 +1,13 @@
 html{
-  background-color: crimson;
+  background-color: black;
   font-family: helvetica;
+  color: whitesmoke;
 }
 header{
   background-color: maroon;
+  background-image:url(../img/roses.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: -15px;
   margin-top: -175px;
   margin-right: -5%;
@@ -61,17 +65,19 @@ a:hover{
 main{
   margin: 2%;
   margin-top: 175px;
-  margin-bottom: 350px;
   padding: 2.5%;
   padding-top:2.5px;
   padding-bottom: 10px;
   font-family: 'Indie Flower';
-  color: whitesmoke;
+  background-image:url(../img/candle-heart.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.letter{
+  background-color: rgba(0,0,0,0.5);
+  padding: 5%;
 }
 /* spacing for each line */
-.opening{
-  color: whitesmoke;
-}
 .par1{
   margin-left: 30px;
 }
@@ -87,6 +93,7 @@ main{
 .par5{
   margin-left: 150px;
 }
+/* aside  */
 aside{
   font-family: helvetica;
 }

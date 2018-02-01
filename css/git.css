@@ -1,11 +1,11 @@
 html{
-  background-color: pink;
+  background-color: rgb(170,126,137);
   font-family: helvetica;
 }
 header{
   background-color: maroon;
-  margin: -15px;
-  margin-top: -175px;
+  margin-left: -15px;
+  margin-top: -150px;
   margin-right: -5%;
   padding: 1%;
   padding-top: 10px;
@@ -59,21 +59,31 @@ a:hover{
 
 }
 main{
-  background-color: beige;
-  background-image:url(../img/letter-paper.gif);
+  background-image:url(../img/rose-peddles-letter.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   margin: 2%;
-  margin-top: 175px;
-  margin-bottom: 350px;
+  margin-top: 140px;
+  margin-left: -1%;
+  margin-right: -1%;
   padding: 2.5%;
   padding-top:2.5px;
   padding-bottom: 10px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Eczar', serif;
   font-style: italic;
   color: black;
+}
+.letter{
+  background-color: rgba(50,50,50,0.4);
+  color: whitesmoke;
+  padding: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 h3{
   margin-top: 50px;
   font-weight: bold;
+
 }
 p{
   text-indent: 50px;

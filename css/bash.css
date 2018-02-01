@@ -1,14 +1,22 @@
 html{
   background-color: navy;
+  background-image: url(../img/rain.gif);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: helvetica;
 }
 header{
-  background-color: cornflowerblue;
+  background-color: navy;
+  background-image: url(../img/blue-rose.gif);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: -15px;
-  margin-top: -250px;
+  margin-top: -300px;
   margin-right: -5%;
   padding: 1%;
-  padding-top: 10px;
+  padding-top: 50px;
   padding-bottom: 0px;
   width: 100%;
   text-align: center;
@@ -72,8 +80,7 @@ a:hover{
 }
 main{
   margin: 2%;
-  margin-top: 250px;
-  margin-bottom: 350px;
+  margin-top: 300px;
   font-family: 'Shadows Into Light', cursive;
   font-style: italic;
 }
@@ -108,7 +115,7 @@ footer{
 aside{
   font-family: helvetica;
   font-style: normal;
-  background-color: rgb(100,100,100);
+  background-color: rgba(100,100,100,0.5);
   padding: 2.5%;
   padding-top:2.5px;
   padding-bottom: 10px;
