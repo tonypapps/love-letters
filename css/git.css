@@ -1,14 +1,18 @@
 html{
   background-color: rgb(170,126,137);
   font-family: helvetica;
+  color: whitesmoke;
 }
 header{
   background-color: maroon;
+  background-image: url(../img/love-blocks.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   margin-left: -15px;
-  margin-top: -150px;
+  margin-top: -200px;
   margin-right: -5%;
   padding: 1%;
-  padding-top: 10px;
+  padding-top: 50px;
   padding-bottom: 0px;
   width: 100%;
   text-align: center;
@@ -63,7 +67,7 @@ main{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: 2%;
-  margin-top: 140px;
+  margin-top: 190px;
   margin-left: -1%;
   margin-right: -1%;
   padding: 2.5%;
@@ -71,14 +75,23 @@ main{
   padding-bottom: 10px;
   font-family: 'Eczar', serif;
   font-style: italic;
-  color: black;
+}
+.key-word{
+  text-decoration: underline;
+  color: hotpink;
+  font-weight: bold;
+  transition: 0.5s ease;
+}
+.key-word:hover{
+  transition: 0.25s ease;
+  font-size:1.2em;
 }
 .letter{
   background-color: rgba(50,50,50,0.4);
-  color: whitesmoke;
   padding: 5%;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 h3{
   margin-top: 50px;
@@ -87,4 +100,20 @@ h3{
 }
 p{
   text-indent: 50px;
+}
+aside{
+  background-color: rgba(50,50,50,0.4);
+  padding: 5%;
+  font-style: normal;
+}
+aside h2{
+  text-align: center;
+}
+aside p{
+  margin-top: -10px;
+}
+aside p span{
+  text-decoration: underline;
+  font-weight: bold;
+  margin-right: 10px;
 }
