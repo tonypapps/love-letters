@@ -2,6 +2,11 @@ html{
   background-color: rgb(170,126,137);
   font-family: helvetica;
   color: whitesmoke;
+  background-image:url(../img/rose-peddles-letter.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 header{
   background-color: maroon;
@@ -63,9 +68,10 @@ a:hover{
 
 }
 main{
-  background-image:url(../img/rose-peddles-letter.gif);
+  /* background-image:url(../img/rose-peddles-letter.gif);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-attachment: fixed; */
   margin: 2%;
   margin-top: 210px;
   margin-left: -1%;

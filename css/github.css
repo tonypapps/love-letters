@@ -70,6 +70,7 @@ main{
   padding-bottom: 10px;
   font-family: 'Indie Flower';
   background-image:url(../img/candle-heart.gif);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
