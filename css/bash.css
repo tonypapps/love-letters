@@ -1,20 +1,21 @@
+/* to do
+change font
+  */
+
 html{
   background-color: navy;
   background-image: url(../img/rain.gif);
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: helvetica;
 }
 header{
-  background-color: navy;
-  background-image: url(../img/blue-rose.gif);
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin: -15px;
-  margin-top: -300px;
   margin-right: -5%;
   padding: 1%;
   padding-top: 50px;
@@ -22,8 +23,11 @@ header{
   width: 100%;
   text-align: center;
   color: white;
-  position: fixed;
+
   text-shadow: 2px 2px black;
+}
+h1{
+  margin-top: 75px;
 }
 .broken-heart img{
   height:100px;
@@ -41,7 +45,7 @@ nav {
   width: 100%;
   z-index: 99;
   top: 0;
-  margin-top: -15px;
+  margin-top: -250px;
   margin-left: -3%;
   padding-left: 2%;
   padding-top: 5%;
@@ -61,8 +65,6 @@ nav li {
     width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
-    background-color: black;
-    border-bottom: solid 1px white;
     padding: 1em;
     padding-top: 15px;
     padding-bottom: 5px;
@@ -70,23 +72,27 @@ nav li {
 nav ul a {
     transition: 0.5s ease;
     text-align: center;
+    font-size: 2em;
     color: white;
     text-decoration: none;
 }
 a:hover{
   transition: 0.25s ease;
   color: slateblue;
-  font-size:1.5em;
+  font-size:2.5em;
+  text-decoration: underline;
 
 }
 main{
   margin: 2%;
-  margin-top: 300px;
+  margin-top: 200px;
   font-family: 'Shadows Into Light', cursive;
   font-style: italic;
 }
 .letter{
   background-color: bisque;
+  margin-left: 15%;
+  margin-right: 15%;
   border: 5px double burlywood;
   padding: 2.5%;
   padding-top:2.5px;
@@ -114,21 +120,21 @@ footer{
   font-size:1.2em;
 }
 aside{
+  margin-left: 15%;
+  margin-right: 15%;
   font-family: helvetica;
   font-style: normal;
-  background-color: rgba(100,100,100,0.5);
+  background-color: rgba(0,0,0,0.75);
   padding: 2.5%;
   padding-top:2.5px;
   padding-bottom: 10px;
+  color: whitesmoke;
 }
 aside h3{
   text-align: center;
   font-weight: bold;
 }
-aside p br{
-  text-indent: 50px;
-}
 aside .key-word{
-  padding-right: 10px;
+  /* padding-right: 10px; */
   color: whitesmoke;
 }
