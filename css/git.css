@@ -51,7 +51,6 @@ nav li {
     box-sizing: border-box;
     margin: 0 auto;
     background-color: black;
-    border-bottom: solid 1px white;
     padding: 1em;
     padding-top: 15px;
     padding-bottom: 5px;
@@ -69,10 +68,6 @@ a:hover{
 
 }
 main{
-  /* background-image:url(../img/rose-peddles-letter.gif);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed; */
   margin: 2%;
   margin-top: 210px;
   margin-left: -1%;
@@ -85,7 +80,7 @@ main{
   display: flex;
 }
 .letter{
-  background-color: rgba(50,50,50,0.4);
+  background-color: rgba(50,50,50,0.7);
   padding: 5%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -115,10 +110,12 @@ p{
   text-indent: 50px;
 }
 aside{
-  background-color: rgba(50,50,50,0.5);
+  background-color: rgba(50,50,50,0.7);
   border-radius: 25px;
   padding: 5%;
+  padding-top: 2%;
   font-style: normal;
+  margin-top: 7px;
 }
 aside h2{
   text-align: center;
